@@ -14,6 +14,11 @@ body {
   color: #585a61;
 }
 
+model-viewer {
+    height: 800px;
+    width: 100%;
+}
+
 a {
   color: #5777ba;
 }
