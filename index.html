@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Appland Bootstrap Template - Index</title>
+  <title>Projet 1M</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -33,6 +33,9 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 </head>
 
 <body>
@@ -42,7 +45,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">Appland</a></h1>
+        <h1 class="text-light"><a href="index.html">Projet 1M</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -54,9 +57,9 @@
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#faq">F.A.Q</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li class="get-started"><a href="#contact">Contact Us</a></li>
 
-          <li class="get-started"><a href="#features">Get Started</a></li>
+
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -72,8 +75,6 @@
           <div>
             <h1>App landing page template</h1>
             <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
-            <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
-            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
           </div>
         </div>
         <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
@@ -233,7 +234,10 @@
 
       </div>
     </section><!-- End Details Section -->
-
+    <section class="details">
+      <!-- Use it like any other HTML element -->
+      <model-viewer src="astronaut.glb" alt="A 3D model of an astronaut" auto-rotate></model-viewer>
+    </section>
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container">
